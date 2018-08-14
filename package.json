@@ -1,0 +1,17 @@
+{
+  "name": "simple-app-mysql-sync-to-redis",
+  "version": "1.0.0",
+  "description": "Syncing important data from mysql to redis - for proper caching",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jure Znidarec",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "mysql-events": "0.0.11",
+    "redis": "^2.8.0"
+  }
+}
